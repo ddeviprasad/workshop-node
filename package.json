@@ -1,0 +1,15 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=8080 node server.js"
+  },
+  "author": "Divyaranjan Deviprasad",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
