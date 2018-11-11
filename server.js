@@ -26,7 +26,7 @@ app.get('/movies', (req, res) => {
 // Add a movie to watchlist
 app.post('/add/:movie', (req, res) => {
     const { movie } = req.params;
-    const url = `http://www.omdbapi.com/?t=${movie}&&apikey=${apiKey}`;
+    const url = `http://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`;
     request({
         url,
         json: true
